@@ -1,10 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<config>
-  <appcast>
+<item>
+    <version>2.0.0.0</version>
     <url>https://riyosenpai20.github.io/autoupdate_app/mysetup.exe</url>
-    <version>1.0.3</version>
     <changelog>Fixed bug in login screen.</changelog>
     <changelog>Change title.</changelog>
     <mandatory>false</mandatory>
-  </appcast>
-</config>
+</item>
