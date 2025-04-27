@@ -2,8 +2,9 @@
 <config>
   <appcast>
     <url>https://riyosenpai20.github.io/autoupdate_app/mysetup.exe</url>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <changelog>Fixed bug in login screen.</changelog>
+    <changelog>Change title.</changelog>
     <mandatory>false</mandatory>
   </appcast>
 </config>
