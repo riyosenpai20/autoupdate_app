@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using AutoUpdaterDotNET;
 
 namespace autoupdate_app
 {
@@ -17,5 +18,9 @@ namespace autoupdate_app
             InitializeComponent();
         }
 
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            AutoUpdater.Start("https://riyosenpai20.github.io/autoupdate_app/update.xml");
+        }
     }
 }
